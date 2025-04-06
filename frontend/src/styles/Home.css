@@ -1,0 +1,68 @@
+/* Home.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .home-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* Elegant blue-dark gradient */
+    color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .home-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fadeSlideIn 1.2s ease-out;
+  }
+  
+  .home-title {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+  }
+  
+  .home-caption {
+    font-size: 1.4rem;
+    color: #dce3ea;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Footer Styling */
+  .home-footer {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.95rem;
+    color: #d0d0d0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(5px);
+  }
+  
+  /* Subtle animation */
+  @keyframes fadeSlideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

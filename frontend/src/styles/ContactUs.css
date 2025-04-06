@@ -1,0 +1,99 @@
+/* ContactUs.css */
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to right, #1e293b, #0f172a);
+    font-family: 'Segoe UI', sans-serif;
+    color: #f1f5f9;
+    padding: 2rem 1rem;
+  }
+  
+  .contact-card {
+    max-width: 600px;
+    margin: auto;
+    background-color: #1e293b;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    animation: fadeIn 1s ease-in-out;
+    text-align: center;
+  }
+  
+  .contact-card h1 {
+    font-size: 2.4rem;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+  }
+  
+  .contact-card p {
+    color: #cbd5e1;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  form input,
+  form textarea {
+    padding: 12px 16px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    background: #f8fafc;
+    color: #1e293b;
+    outline: none;
+  }
+  
+  form textarea {
+    resize: vertical;
+    height: 120px;
+  }
+  
+  form button {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .success-msg {
+    color: #4ade80;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+  
+  .footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    color: #94a3b8;
+    background: #0f172a;
+    border-top: 1px solid #334155;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

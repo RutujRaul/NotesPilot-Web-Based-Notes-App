@@ -1,0 +1,100 @@
+/* Notes.css */
+
+.notes-container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    min-height: 100vh;
+    background: linear-gradient(to right, #1e3a8a, #0f172a);
+    color: #f8fafc;
+    font-family: 'Segoe UI', sans-serif;
+    position: relative;
+  }
+  
+  .logout-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-btn:hover {
+    background-color: #dc2626;
+  }
+  
+  .notes-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .notes-form {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .notes-form input {
+    flex: 1;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    min-width: 250px;
+  }
+  
+  .notes-form button {
+    padding: 0.8rem 1.4rem;
+    font-size: 1rem;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .notes-form button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .notes-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .notes-list li {
+    background-color: #1e293b;
+    padding: 1.2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+    word-wrap: break-word;
+  }
+  
+  .notes-list li:hover {
+    transform: translateY(-3px);
+  }
+  
+  .notes-list small {
+    display: block;
+    margin-top: 0.5rem;
+    color: #94a3b8;
+    font-size: 0.85rem;
+  }
+  
